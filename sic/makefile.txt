@@ -1,0 +1,22 @@
+
+/*************************************************************
+
+CS530 - SPRING 2013
+
+Name: Linh Ngoc Nguyen
+
+username: masc0755
+
+Project: CSNNNN Assignment 1
+
+Partner: Tuan Truong	
+username:masc0710
+
+File: makefile
+
+
+*************************************************************/
+
+
+diss: a1.c ins_evaluate.c hextobi.c flagn_i.c -lm
+	gcc -o diss a1.c ins_evaluate.c hextobi.c flagn_i.c target_address.c hexadd.c

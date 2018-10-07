@@ -1,46 +1,37 @@
+ Name: Linh Ngoc Nguyen
+user masc0755
+Partner:Tuan Truong
+user masc0710
+Class: CS 570, spring 2013
+Assignment #1
+Filename: README.txt
 
-CS530 - SPRING 2013
-Name: Linh Ngoc Nguyen
-username: masc0755
-Project: CSNNNN Assignment 2
-Partner: Tuan Truong	username :masc0710
+File manifest:a1.h, a1.c, ins_evaluate.c, hextobi.c, flagn_i.c, target_address.c hexadd.c
 
-Files: a2.c
-	sic.c
-	sicXE.c
-	read_file.c
-	convert_file.c
-	create_file_list.c
-	create_obj_code.c
-	create_obj_codeXE.c
-	a2.h
+This program is used to open the file a1.sic which will contain a assembled
+SIC/XE instructions and the evaluate each instruction, one per line, read from
+this file until EOF. After evaluating, it will print: opcoe mnemonic, nixbpe
+flags (if appropriate), the disp/address field (if appropriate), and the
+TA(target address) (if applicable).
 
-*************************************************************
-This program is used to read assembly source files for SIC/XE and generate an
-object code.
-Input: the program will read the file from filename provided by the user from
-the command line or if blank, prompt the user for the filename of the source
-file to be assembled.
-This program based on algorithm on page 53 and 54.
+a1.h: the header file 
+a1.c: the main program 
+ins_evaluate.c: evaluate the opcode
+hextobi.c: convert from hexadecimal to binary, change x=1 to x=0, convert from
+binary to hex.
+flagn_i.c: get addressing mode through n and i, b and p; get target machine
+target_address.c: get target address 
+hexadd.c: adding 2 hexadecimal
 
-To run this program, first you need to type
-g++ -o scl a2.c sic.c sicXE.c read_file.c convert_file.c create_file_list.c
-create_obj_code.c create_obj_codeXE.c
+To run this program, first you need to type 
+gcc -o diss a1.c ins_evaluate.c hextobi.c flagn_i.c target_address.c hexadd.c
 
-or you can type "make" and then press Enter to compile the program
+or you can type "make" and then you press Enter to compile the program.
 
-After that you type scl and the program will run.
-This will have 2 files(.list and .obj): sic.list and sic.obj/sicXE.obj
-Use notepad, word, to run read the files
-Or type cat, or more in rohan server to view to the files
+After that you type diss and the program will run.
 
-In this program, my SIC file have some object codes are not right. It is the
-same with SICXE file. For some reason, the output does not appear like i want in
-SICXE. 
-There are some values that i don't know how to calculate in SICXE.
+In this program, i think that the target address does not run properly. Some of
+the target address appears wrong. When changing x=1 to x=0, the new displacement
+return nothing for some reason with causing the target address return wrong.
 
-I usnderstand the lesson but there are some parts that are hard for me to
-understand, for example, calculate the B relative counter.
-
- 
- 
+I have a little confuse with the lesson about the target address when x=1. 
