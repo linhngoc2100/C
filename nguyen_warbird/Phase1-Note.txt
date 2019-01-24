@@ -1,0 +1,20 @@
+Linh Nguyen
+COMP465
+Phase 1
+
+warbird phase 1 design and Implementation Notes
+
+The project has 2 classes: the Main Class, and the Model 3D Class.
+The Model 3D classes have 3 files: Shade3D.hpp for planets, Ship3D.hpp for ship, and Missile3D for missile.
+The Main Class- WarBird has many model 3d objects - 7 objects which are 5 planets objects, 1 ship object, and 1 missile object.
+The initial design was to view all the objects in 3d Models. Each model has different size, rotation, and translation. 
+There are different tri files for each objects - "ruber.tri", "unum.tri", "duo.tri", "primus.tri", "secundus.tri", "spaceship.tri", and "missile.tri".
+The planets have the same number of vertices, but the ship and missile have different vertices, so they are treated differently.
+The models are tranlsated from a set location. 
+The sun is tranlsated from the origin and the moons are tranlsated from the planet they orbit.
+
+The camera views for 2 planets are not dynamic. They don't follow the planets. 
+
+There is a additional feature that added in the first phase. It is the camera of spaceship. 
+	 
+	

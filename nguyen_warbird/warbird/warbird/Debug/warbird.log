@@ -1,0 +1,23 @@
+﻿  warbird.cpp
+  GLM: GLM_MESSAGES is deprecated, use GLM_FORCE_MESSAGES instead
+  GLM: Windows platform detected
+  GLM: version 0.9.8.0
+  GLM: Visual C++ compiler detected
+  GLM: 32 bits model
+  GLM: Platform independent code
+  GLM: C++0x
+  GLM: Language extensions enabled
+  GLM: Swizzling operators disabled, #define GLM_SWIZZLE to enable swizzle operators
+  GLM: Depth clip space: negative one to one
+  GLM: Coordinate system: right handed
+  GLM: .length() returns glm::length_t, a typedef of int following the GLSL specification
+  GLM: Core library included
+  GLM: GLM_GTC_constants extension included
+  GLM: GLM_GTC_matrix_transform extension included
+  GLM: GLM_GTC_quaternion extension included
+  GLM: GLM_GTC_type_ptr extension included
+c:\users\linh\desktop\csun\fall2016\comp465\warbird\final\nguyen_warbird\warbird\warbird\warbird.cpp(322): warning C4473: 'printf' : not enough arguments passed for format string
+  c:\users\linh\desktop\csun\fall2016\comp465\warbird\final\nguyen_warbird\warbird\warbird\warbird.cpp(322): note: placeholders and their parameters expect 1 variadic arguments, but 0 were provided
+  c:\users\linh\desktop\csun\fall2016\comp465\warbird\final\nguyen_warbird\warbird\warbird\warbird.cpp(322): note: the missing variadic argument 1 is required by format string '%s'
+  warbird.vcxproj -> C:\Users\Linh\Desktop\CSUN\fall2016\comp465\warbird\Final\nguyen_warbird\warbird\Debug\warbird.exe
+  warbird.vcxproj -> C:\Users\Linh\Desktop\CSUN\fall2016\comp465\warbird\Final\nguyen_warbird\warbird\Debug\warbird.pdb (Partial PDB)

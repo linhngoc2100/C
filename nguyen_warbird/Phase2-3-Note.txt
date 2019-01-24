@@ -1,0 +1,19 @@
+Linh Nguyen
+COMP465
+Phase 2-3
+
+warbird phase 2 and 3
+The camera is dynmaic, it means that it follows the planets or ship. User can see previous camera by press x.
+User can apply the gravity to ship or planet by press g.
+USer can move the ship forwatd, backward, turn left or right with arrow key and control key follow arrow key. 
+The user will fire the missile by press f, the missile will find the target which is missile sites and destroys them. After 200 updates, missiles will target object.
+After 2000 updates, missile destroys itself.
+Also, the missile sites will detect the ship and fire missile if the ship is near the missile sites.
+Ship and missiles are checked by collision detection.
+The user can warp the ship to near the planet.
+User can check speed with key s.
+User can change time quantum with key t.
+There are light effects on the screen. They are point, head and ambiet lights that are assigned by keys. 
+The screen is loaded with starfield file to make it looks like in universe. 
+	 
+	
